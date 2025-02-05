@@ -1,0 +1,229 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration form.</h1>
+    <form action="/action">
+    <div>
+        <input type="textarea" placeholder="First name" name="fname"/>
+        <input type="textarea" placeholder="Last name" name="lname"/>
+        <lable for ="gender">Please select the gender :</lable>
+        <select name ="gender" id="gender">
+            <option>Male</option>
+            <option>female</option>
+            <option>other</option>
+        </select>
+    </div>
+    <div>
+        Do you agree to all our term and services?
+        <input type ="checkbox" id="tos_agree"name="tos agree"/>
+        <labele for="tos_agree">Yes ,I agree
+
+        </labele>
+    </div>
+    </form>
+    </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <style>
+    /* General Reset */
+    body, h1, h2, p, ul, li {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Body and Background */
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Navigation */
+    nav ul {
+      list-style-type: none;
+      background-color: #333;
+      margin: 0;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    /* Sections */
+    section {
+      padding: 40px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    /* Home Section */
+    #home {
+      text-align: center;
+    }
+
+    #home h1 {
+      font-size: 36px;
+      color: #2c3e50;
+    }
+
+    /* About Me Section */
+    #about {
+      background-color: #ecf0f1;
+    }
+
+    /* Portfolio Section */
+    #portfolio .portfolio-items {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .portfolio-item {
+      width: 250px;
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .portfolio-item h3 {
+      margin-top: 10px;
+      font-size: 20px;
+      color: #34495e;
+    }
+
+    .portfolio-item p {
+      color: #7f8c8d;
+    }
+
+    /* Services Section */
+    #services ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    #services ul li {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    /* Contact Section */
+    #contact p {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    /* Footer Section */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hello! I'm [Your Name], a B.Tech student and a freelancer skilled in web development, video editing, and design.</p>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I specialize in programming, web development, content creation, and video editing. I also offer services in graphic design through Canva.</p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-items">
+      <div class="portfolio-item">
+        <img src="your-image1.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Brief description of the project.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="your-image2.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Brief description of the project.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>Graphic Design (Canva)</li>
+      <li>Video Editing</li>
+      <li>Content Writing</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your-email@example.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com">Your LinkedIn</a></p>
+    <p>Fiverr: <a href="https://www.fiverr.com">Your Fiverr Profile</a></p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
